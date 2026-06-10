@@ -2,54 +2,39 @@
 <img width="1536" height="1024" alt="WhatsApp Image 2026-06-02 at 2 30 59 AM" src="https://github.com/user-attachments/assets/64a53360-cc63-4230-9091-19548b456007" />
 
 LAB 4 — AWS 3-Tier Architecture using Terraform
-
-FINAL ARCHITECTURE
-
-Internet
-    |
-    v
-Application Load Balancer (Public Subnets)
-    |
-    v
-EC2 Application Server (Private Subnets)
-    |
-    v
-RDS MySQL Database (Private Subnets)
-
-
 ---
 
 WHAT YOU WILL CREATE
 
 Networking
 
-✅ VPC
-✅ 2 Public Subnets
-✅ 2 Private Subnets
-✅ Internet Gateway
-✅ Route Tables
+- ✅ VPC
+- ✅ 2 Public Subnets
+- ✅ 2 Private Subnets
+- ✅ Internet Gateway
+- ✅ Route Tables
 
 Security
 
-✅ ALB Security Group
-✅ EC2 Security Group
-✅ RDS Security Group
+- ✅ ALB Security Group
+- ✅ EC2 Security Group
+- ✅ RDS Security Group
 
 Compute
 
-✅ EC2 Instance
-✅ Apache + PHP App
+- ✅ EC2 Instance
+- ✅ Apache + PHP App
 
 Load Balancing
 
-✅ Application Load Balancer
-✅ Target Group
-✅ Listener
+- ✅ Application Load Balancer
+- ✅ Target Group
+- ✅ Listener
 
 Database
 
-✅ RDS MySQL
-✅ DB Subnet Group
+- ✅ RDS MySQL
+- ✅ DB Subnet Group
 
 
 ---
@@ -58,14 +43,14 @@ PROJECT STRUCTURE
 
 Create folder:
 
-terraform-aws-3tier
+`terraform-aws-3tier
 │
 ├── provider.tf
 ├── variables.tf
 ├── terraform.tfvars
 ├── main.tf
 ├── outputs.tf
-└── userdata.sh
+└── userdata.sh`
 
 
 ---
